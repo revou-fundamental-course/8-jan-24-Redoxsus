@@ -1,0 +1,84 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   background-color: #eff2f9;
+}
+
+header {
+    text-align: center;
+    border-radius: 20px;
+}
+
+header h1 {
+   background-color: #243e5a ;
+   color: #f5f8ff;
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+
+header p {
+   padding-bottom: 3px;
+}
+
+a{
+   text-decoration: none;
+   color: #243e5a;
+}
+a:active {
+   color: #748ba9;
+}
+
+.luasPer h2 {
+   text-align: center;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   background-color: #243e5a;
+   color: #f5f8ff;
+}
+
+.kelilingPer h2 {
+   text-align: center;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   background-color: #243e5a;
+   color: #f5f8ff;
+}
+.inputSec {
+    display: flex;
+    flex-direction: column;
+
+}
+.lblSquareSide {
+    text-align: center;
+}
+
+ #squareSide { 
+    outline: none;
+    border-radius: 16px;
+    border: solid #243e5a;
+    padding: 8px;
+    margin-bottom: 10px;
+    
+ }
+
+ #squareSide:focus {
+    border: solid #031a2e;
+ }
+
+ button {
+    background-color: #405D80;
+    color: #eff2f9;
+    border: none;
+    border-radius: 8px;
+    padding: 5px 5px;
+    cursor: pointer;
+ }
+
+ 
+ button:hover {
+    background-color: #748ba9;
+ }
+
+ button:active {
+    background-color: #243e5a;
+    transform: translateY(2px);
+ }
